@@ -33,7 +33,7 @@ public class PokemonBattle {
 		int HP = userInput.nextInt();
 		System.out.println();
 		double Modifier = (0.85 + (Math.random() * 0.15)) * Stab;
-		int Damage = (int)((((2 * Level + 10) / (250)) + ((Attack/Defense) * Base + 2) * Modifier);
+		int Damage = (int)((((2 * Level + 10) / (250)) + ((Attack/Defense) * Base + 2) * Modifier));
 		int hp = HP - 10;
 		System.out.println("HP, after damage, is now" + hp);
 		System.out.println();
